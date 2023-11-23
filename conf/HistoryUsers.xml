@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfUserInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UserInfo>
+    <user_name>zzu</user_name>
+    <user_pwd>zzu</user_pwd>
+    <save_pwd>true</save_pwd>
+    <auto_login>false</auto_login>
+  </UserInfo>
+  <UserInfo>
+    <user_name>admin</user_name>
+    <user_pwd>123456</user_pwd>
+    <save_pwd>true</save_pwd>
+    <auto_login>true</auto_login>
+  </UserInfo>
+  <UserInfo>
+    <user_name>xt</user_name>
+    <user_pwd>123456</user_pwd>
+    <save_pwd>true</save_pwd>
+    <auto_login>false</auto_login>
+  </UserInfo>
+</ArrayOfUserInfo>

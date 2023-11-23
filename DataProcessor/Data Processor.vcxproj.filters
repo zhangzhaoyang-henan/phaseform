@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="helper.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="data.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="gpu_kernels.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="interpolation.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="dispersion.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="background.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="output.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="kernel.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{cfbbf217-8064-4eba-9776-9bb364130bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{3edef0f1-fbf8-4cb6-94f1-a1c113334958}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="parameters.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="data.cuh">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="helper.cuh">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="gpu_kernels.cuh">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="interpolation.cuh">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="dispersion.cuh">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="background.cuh">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="output.cuh">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="prcssr.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="TiffWriter.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessorCalibration.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessorWrapper.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessorApi.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="TiffHandler.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dom.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="parameters.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="prcssr.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessorWrapper.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessorApi.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TiffHandler.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dom.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

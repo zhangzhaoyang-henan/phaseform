@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Parameters_of_Ultra_motor_controller xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="Ultra.motor.controller">
+  <Port_of_Motor>COM6:USB-SERIAL CH340</Port_of_Motor>
+  <Baud_rate>115200</Baud_rate>
+  <Motors_params_list>
+    <Command_str_of_serial_port xmlns="Ultra.motor">VOA_RUN({0},{1},{2})</Command_str_of_serial_port>
+    <Step xmlns="Ultra.motor">1</Step>
+    <Motor_Speed xmlns="Ultra.motor">16</Motor_Speed>
+    <Motor_direction xmlns="Ultra.motor">1</Motor_direction>
+    <Current_posiont xmlns="Ultra.motor">3253</Current_posiont>
+    <Motor_max_step xmlns="Ultra.motor">4000</Motor_max_step>
+    <Motor_min_step xmlns="Ultra.motor">0</Motor_min_step>
+    <Motor_reset_point xmlns="Ultra.motor">3253</Motor_reset_point>
+  </Motors_params_list>
+  <Motors_params_list>
+    <Command_str_of_serial_port xmlns="Ultra.motor">PDC_RUN({0},{1},{2})</Command_str_of_serial_port>
+    <Step xmlns="Ultra.motor">10</Step>
+    <Motor_Speed xmlns="Ultra.motor">16</Motor_Speed>
+    <Motor_direction xmlns="Ultra.motor">1</Motor_direction>
+    <Current_posiont xmlns="Ultra.motor">870</Current_posiont>
+    <Motor_max_step xmlns="Ultra.motor">970</Motor_max_step>
+    <Motor_min_step xmlns="Ultra.motor">0</Motor_min_step>
+    <Motor_reset_point xmlns="Ultra.motor">500</Motor_reset_point>
+  </Motors_params_list>
+  <Motors_params_list>
+    <Command_str_of_serial_port xmlns="Ultra.motor">DL_RUN({0},{1},{2})</Command_str_of_serial_port>
+    <Step xmlns="Ultra.motor">100</Step>
+    <Motor_Speed xmlns="Ultra.motor">16</Motor_Speed>
+    <Motor_direction xmlns="Ultra.motor">1</Motor_direction>
+    <Current_posiont xmlns="Ultra.motor">60000</Current_posiont>
+    <Motor_max_step xmlns="Ultra.motor">100000</Motor_max_step>
+    <Motor_min_step xmlns="Ultra.motor">0</Motor_min_step>
+    <Motor_reset_point xmlns="Ultra.motor">60000</Motor_reset_point>
+  </Motors_params_list>
+</Parameters_of_Ultra_motor_controller>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SeverList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <http_server_info>
+    <server_ipaddr>http://39.106.81.31</server_ipaddr>
+    <server_port>5001</server_port>
+    <user_name>admin</user_name>
+    <user_pwd>123456</user_pwd>
+  </http_server_info>
+  <ftp_server_info>
+    <server_ipaddr>ftp://39.106.81.31</server_ipaddr>
+    <server_port>21</server_port>
+    <user_name>lucia</user_name>
+    <user_pwd>ultra..789</user_pwd>
+  </ftp_server_info>
+</SeverList>
